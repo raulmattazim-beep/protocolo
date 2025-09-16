@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+    box-sizing: border-box;
+}
+        
+:root {
+    font-size: 62.5%; 
+}
+    
+html,
+body {
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+header, section, div {
+    width:  100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    background-color:  #F91F21;
+    padding:  2rem;
+}
+
+header p {
+    color:  #fff;
+}
+
+.email {
+    background-color: #0A062B;
+    padding:  6rem 2rem;
+}
+
+.email-info {
+    width:  100%;
+    max-width: 540px;
+}
+
+.email-info  h2 {
+    color: #fff!important;
+}
+
+.email-info  p {
+    color: #fff!important;
+}
+
+.email-info h1 {
+    font-size: 3.6rem;
+    color: #fff!important;
+}
+
+.email-info p {
+    padding:  2rem 0;
+}
+
+.email-info span {
+    color: #30D24E;
+}
+
+.email-info img {
+    width:  100%;
+    max-width:  360px;
+    margin-top:  30px;
+}
+
+.support {
+    padding:  8rem 2rem;
+}
+
+.support-info {
+    width:  100%;
+    max-width: 540px;
+}
+
+.support-card {
+    width:  100%;
+    max-width:  360px;
+
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    width:  100%;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.support-info h2 {
+    color:  #000;
+    margin-top:  30px;
+}
+
+.support-info p {
+    color:  #000;
+}
+
+.support-info img {
+    width:  100%;
+    max-width:  540px;
+    margin-top:  30px;
+    object-fit: contain;
+}
+
+.support-info > span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    margin-top: 40px;	
+}
+
+.support-info .sell {
+    width:  100%;
+    max-width:  280px;
+    background-color: #30D24E;
+    color:  #fff;
+    padding:  14px 18px;
+    border-radius:  12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 18px;
+    margin-bottom: 24px;
+    text-decoration: none;
+    box-shadow: 0px 3px 5px 5px rgba(60, 95, 59, 0.2);
+}
+
+.support-info .app-btn {
+    width:  100%;
+    max-width:  280px;
+    background-color: #effb14!important;
+    color:  #000;
+    padding:  14px 18px;
+    border-radius:  12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 18px;
+    margin-bottom: 24px;
+    text-decoration: none;
+    box-shadow: 0px 3px 5px 5px rgba(0,0,0,0.2);
+}

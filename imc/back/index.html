@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Seca Mais | Back 1 </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <script>
+		window.onload = function () {
+			var links = document.getElementsByTagName("a");
+			for (var i = 0, n = links.length; i < n; i++) {
+				var href = links[i].href.trim() +
+						(links[i].href.indexOf("?") > 0 ? '&' : '?') +
+						document.location.search.replace('?', '').toString();
+				links[i].href = href;
+			}
+		}
+	</script>
+</head>
+<body>
+
+    <header>
+        <h1 class="coup pulse">
+            ATENÇÃO: SUA SAÚDE ESTÁ EM RISCO
+        </h1>
+    </header>
+
+    
+    <main>
+        <div class="main-content">
+            <img src="./assets/head.png" alt="">
+
+            <p>Após a Dra. Andreia, e <span class="under">TODOS</span> os médicos, e mais renomados nomes da saúde analisarem como a saúde das mulheres irá ficar nesse ano de 2023.</p>
+            <p>Os dados não são nada bons, o índice de obesidade vem aumentando cada vez mais.</p>
+            <p><b>A notícia já está se espalhando pelo Brasil a fora:</b></p>
+
+            <div class="special">
+                <img src="./assets/simone.webp" alt="">
+                <p><i>“Eu era chamada de gorda e feia pela minha mãe, hoje consigo ver que ser magra e feliz é algo que toda mulher deve sentir na vida, obrigada Dra. Andreia”</i> – <b>Simone Mendes</b></p>
+            </div>
+
+            <p>Por isso, com o intuito de amenizar esses dados, e ajudar todas as mulheres possíveis do Brasil, a Dra. Andreia decidiu oferecer <span class="under"><span class="green">um desconto de 60% OFF por apenas 8 minutos…</span></span></p>
+            <p><span class="under">Um valor de apenas 12x de 5,58 ou 67,00 à vista (somente a consulta de análise dela é R$4.000,00, está quase que de GRAÇA )</span></p>
+
+            <!-- link -->
+            <a href="https://go.perfectpay.com.br/PPU38CN11GN?src=emagrece1" class="sell">APROVEITAR O DESCONTO DE 60%</a>
+
+            <h3 class="bg-yellow">
+                Esse desconto <b>GARANTE</b> todos os conteúdos e o WhatsApp pessoal da Dra. Andreia Maira Sampaio.
+            </h3>
+
+            <p><b>Além da garantia incondicional de 365 dias, a Dra. Andreia irá fazer um <span class="green">PIX de R$ 1.000,00 para quem até o fim do ano não tiver com o corpo ideal.</span></b></p>
+            <p>Fazendo ligações e conversas pelo WhatsApp todos dias durante 01 ano completo…</p>
+
+            <!-- link -->
+            <a href="https://go.perfectpay.com.br/PPU38CN11GN?src=emagrece1" class="sell">QUERO APROVEITAR O DESCONTO DE 60%</a>
+        </div>
+    </main>
+
+    <script>
+        var urlBackRedirect = '../back2/'; // lembre-se de usar a url sem espaços
+        // não altere nada abaixo dessa linha
+        urlBackRedirect = urlBackRedirect = urlBackRedirect.trim() +
+                (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
+                document.location.search.replace('?', '').toString();
+        history.pushState({}, "", location.href);
+        history.pushState({}, "", location.href);
+        window.onpopstate = function () {
+            setTimeout(function () {
+                location.href = urlBackRedirect;
+            }, 1);
+        };
+    </script>
+
+</body>
+</html>
+    
